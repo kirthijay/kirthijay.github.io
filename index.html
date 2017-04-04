@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<title>Kirthi Jay Saloon</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="w3.css">
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Poppins">
+<link rel='stylesheet' href='//fonts.googleapis.com/css?family=Great Vibes'>
+<link href='//fonts.googleapis.com/css?family=Alegreya Sans SC' rel='stylesheet'>
+<link rel="stylesheet" href="style.css">
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Poppins", sans-serif}
+body {font-size:16px;}
+.w3-half img{margin-bottom:-6px;margin-top:16px;opacity:0.8;cursor:pointer}
+.w3-half img:hover{opacity:1}
+</style>
+<body>
+
+<!-- Sidebar/menu -->
+<div class="w3-bar w3-light-grey">
+  <a href="#" class="w3-bar-item w3-button">Home</a>
+  <a href="#about" class="w3-bar-item w3-button w3-hide-small ">About</a>
+  <a href="#gallery" class="w3-bar-item w3-button w3-hide-small">Gallery</a>
+  <a href="#contact" class="w3-bar-item w3-button w3-hide-small">Contact</a>
+  <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="myFunction()">&#9776;</a>
+</div>
+
+<div id="demo" class="w3-bar-block w3-red w3-hide w3-hide-large w3-hide-medium w3-padding">
+  <a href="#" class="w3-bar-item w3-button">About</a>
+  <a href="#" class="w3-bar-item w3-button">Gallery</a>
+  <a href="#" class="w3-bar-item w3-button">Contact</a>
+</div>
+
+
+
+  <!-- Header -->
+          
+<div class="w3-display-container">
+  <img src="img/cover.jpg" alt="cover pic" style="width:100%">
+  <div class="w3-display-middle w3-text-shadow"><h1 class="title">Kirthi J Beauty</h1></div>
+  
+</div>
+      
+    <div class="w3-container blank"></div><div class="arrow-down"></div>   
+  
+    <!-- About Me -->
+    <div class="w3-container" id="about" style="margin-top:35px">
+        <div class="w3-row">
+            <div class="w3-col l12">
+                <div class="w3-row">
+                    <h1 class="w3-xxxlarge w3-text-teal center subheading"><b>About Me</b></h1>
+                    <div class="w3-col l4"><img src="img/about.jpg" class="shadow w3-image"/></div>
+                <div class="w3-col l8">
+                    <p>After more than 5 years of working with friends, I started loving this field of helping women look as good as they feel. “Making people look good also makes them feel good” which in turn, makes me happy. It’s happiness for all...</p>
+                    <p style="padding-bottom: 55px">I am so lucky that I have found a career that I love so much. I have truly enjoyed every minute of my career I wanted to become someone who is capable of helping individuals. Since the start of my career I have volunteered my time and skills at different events. Being a beautician isn’t only about giving facial treatments and selling skin care products; it’s about helping people and making sure they know that they're in good hands.</p>
+                    
+               </div>
+            </div>
+              
+        </div>
+          
+           
+            
+      </div> <!--- row --->
+    </div> <!--- w3 container --->
+    
+    <div class="arrow-up"></div> <div class="w3-container blank"></div>
+      <div class="w3-container" id="gallery" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-teal subheading center"><b>Gallery</b></h1>
+        
+  </div>
+
+  <!-- Photo grid (modal) -->
+  <div class="w3-row-padding">
+    <div class="w3-half">
+      <img src="img/IMG-01.jpg" style="width:100%" onclick="onClick(this)">
+        <img src="img/IMG-04.jpg" style="width:100%" onclick="onClick(this)"> 
+        <img src="img/IMG-05.jpg" style="width:100%" onclick="onClick(this)">
+    </div>
+
+    <div class="w3-half">
+        <img src="img/IMG-02.jpg" style="width:100%" onclick="onClick(this)">
+        <img src="img/IMG-06.jpg" style="width:100%" onclick="onClick(this)">
+        <img src="img/IMG-03.jpg" style="width:100%" onclick="onClick(this)">
+    </div>
+  </div>
+
+  <!-- Modal for full size images on click-->
+  <div id="modal01" class="w3-modal w3-black w3-padding-0" onclick="this.style.display='none'">
+    <span class="w3-closebtn w3-text-white w3-opacity w3-hover-opacity-off w3-xxlarge w3-container w3-display-topright">×</span>
+    <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+      <img id="img01" class="w3-image">
+      <p id="caption"></p>
+    </div>
+  </div>
+
+  
+  <!-- Designers -->
+  <div class="w3-container" id="designers" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-teal"><b>What you can get from us.</b></h1>
+    <p>The best team in the world.</p>
+    <p>We are lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+    dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor
+    incididunt ut labore et quis nostrud exercitation ullamco lv
+    </p>
+    <p><b>Our designers are thoughtfully chosen</b>:</p>
+  </div>
+
+  
+
+        
+
+  
+  <!-- Contact -->
+    
+    
+    
+  <div class="w3-container" id="contact" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-teal"><b>Contact.</b></h1>
+    <p>Please Contact Us. We love to hear from you</p>
+    
+      
+      
+  </div>
+    
+ 
+    
+    
+
+<!-- End page content -->
+</div>
+
+<!-- W3.CSS Container -->
+
+
+<script>
+// Script to open and dropdown
+function myFunction() {
+    var x = document.getElementById("demo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else { 
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+    
+   
+    
+</script>
+    
+    
+</body>
+</html>
